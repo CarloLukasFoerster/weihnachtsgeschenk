@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geschenkegutschein</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 1rem;
+            background-color: #1D2D50; /* Edles, leicht dunkleres Weiß */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .card {
+            background-color: #f5f5dc; /* Edles Grau für die Geschenke-Karte */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: inline-block;
+            width: 40%;
+            max-width: 700px;
+        }
+
+        .card h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 2rem;
+            color: #333;
+            margin: 0;
+        }
+
+        .card p {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        .rose {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 40px;
+            height: auto;
+            background-image: url('path/to/your/rose_or_ribbon_image.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>Liebes Müsli!</h1>
+        <p>Du bist mein Lieblingsmensch auf der ganzen Welt. Du bist die kleinste, süßeste Maus mit dem größten Herz!</p>
+        <p>Ich freue mich auf das nächste Jahr mit dir und unsere tolle Reise. Und dann auf unsere kleine Familie ;-) Das hier ist dein Weihnachtsgeschenk:</p>
+        <a href="gutschein.html">Jetzt Geschenk anfordern!</a>
+        <p>Dein Carli 🌹</p>
+        <div class="rose"></div>
+    </div>
+</div>
+
+</body>
+</html>
